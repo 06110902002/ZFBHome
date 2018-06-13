@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B01503620CFE87D0039B6FD /* HeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B01503520CFE87D0039B6FD /* HeadView.m */; };
+		6B01503D20CFF47D0039B6FD /* UIButton+ImgLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B01503C20CFF47D0039B6FD /* UIButton+ImgLabel.m */; };
 		6B0912BB20CF5F3E000A6736 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B0912BA20CF5F3E000A6736 /* AppDelegate.m */; };
 		6B0912BE20CF5F3E000A6736 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B0912BD20CF5F3E000A6736 /* ViewController.m */; };
 		6B0912C120CF5F3E000A6736 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B0912BF20CF5F3E000A6736 /* Main.storyboard */; };
@@ -15,6 +17,15 @@
 		6B0912C920CF5F3F000A6736 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B0912C820CF5F3F000A6736 /* main.m */; };
 		6B0912D320CF5F40000A6736 /* ZFBHomeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B0912D220CF5F40000A6736 /* ZFBHomeTests.m */; };
 		6B0912DE20CF5F40000A6736 /* ZFBHomeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B0912DD20CF5F40000A6736 /* ZFBHomeUITests.m */; };
+		6B0BE99520D0A27400640AE9 /* userinfo_loading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B0BE98C20D0A27400640AE9 /* userinfo_loading@2x.png */; };
+		6B0BE99620D0A27400640AE9 /* home_bill@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B0BE98D20D0A27400640AE9 /* home_bill@2x.png */; };
+		6B0BE99720D0A27400640AE9 /* home_card@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B0BE98E20D0A27400640AE9 /* home_card@2x.png */; };
+		6B0BE99820D0A27400640AE9 /* home_search.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B0BE98F20D0A27400640AE9 /* home_search.png */; };
+		6B0BE99920D0A27400640AE9 /* home_scan@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B0BE99020D0A27400640AE9 /* home_scan@2x.png */; };
+		6B0BE99A20D0A27400640AE9 /* home_contacts@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B0BE99120D0A27400640AE9 /* home_contacts@2x.png */; };
+		6B0BE99B20D0A27400640AE9 /* home_pay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B0BE99220D0A27400640AE9 /* home_pay@2x.png */; };
+		6B0BE99C20D0A27400640AE9 /* pay_mini@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B0BE99320D0A27400640AE9 /* pay_mini@2x.png */; };
+		6B0BE99D20D0A27400640AE9 /* home_xiu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B0BE99420D0A27400640AE9 /* home_xiu@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +46,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6B01503420CFE87D0039B6FD /* HeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HeadView.h; path = headView/HeadView.h; sourceTree = "<group>"; };
+		6B01503520CFE87D0039B6FD /* HeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HeadView.m; path = headView/HeadView.m; sourceTree = "<group>"; };
+		6B01503B20CFF47D0039B6FD /* UIButton+ImgLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImgLabel.h"; sourceTree = "<group>"; };
+		6B01503C20CFF47D0039B6FD /* UIButton+ImgLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImgLabel.m"; sourceTree = "<group>"; };
 		6B0912B620CF5F3E000A6736 /* ZFBHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZFBHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B0912B920CF5F3E000A6736 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6B0912BA20CF5F3E000A6736 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +66,15 @@
 		6B0912D920CF5F40000A6736 /* ZFBHomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZFBHomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B0912DD20CF5F40000A6736 /* ZFBHomeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFBHomeUITests.m; sourceTree = "<group>"; };
 		6B0912DF20CF5F40000A6736 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B0BE98C20D0A27400640AE9 /* userinfo_loading@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "userinfo_loading@2x.png"; sourceTree = "<group>"; };
+		6B0BE98D20D0A27400640AE9 /* home_bill@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_bill@2x.png"; sourceTree = "<group>"; };
+		6B0BE98E20D0A27400640AE9 /* home_card@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_card@2x.png"; sourceTree = "<group>"; };
+		6B0BE98F20D0A27400640AE9 /* home_search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_search.png; sourceTree = "<group>"; };
+		6B0BE99020D0A27400640AE9 /* home_scan@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_scan@2x.png"; sourceTree = "<group>"; };
+		6B0BE99120D0A27400640AE9 /* home_contacts@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_contacts@2x.png"; sourceTree = "<group>"; };
+		6B0BE99220D0A27400640AE9 /* home_pay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_pay@2x.png"; sourceTree = "<group>"; };
+		6B0BE99320D0A27400640AE9 /* pay_mini@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pay_mini@2x.png"; sourceTree = "<group>"; };
+		6B0BE99420D0A27400640AE9 /* home_xiu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_xiu@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +102,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B01503A20CFF4640039B6FD /* widgt */ = {
+			isa = PBXGroup;
+			children = (
+				6B01503B20CFF47D0039B6FD /* UIButton+ImgLabel.h */,
+				6B01503C20CFF47D0039B6FD /* UIButton+ImgLabel.m */,
+			);
+			path = widgt;
+			sourceTree = "<group>";
+		};
 		6B0912AD20CF5F3E000A6736 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +134,8 @@
 		6B0912B820CF5F3E000A6736 /* ZFBHome */ = {
 			isa = PBXGroup;
 			children = (
+				6B0BE98B20D0A22F00640AE9 /* res */,
+				6B01503A20CFF4640039B6FD /* widgt */,
 				6B0912B920CF5F3E000A6736 /* AppDelegate.h */,
 				6B0912BA20CF5F3E000A6736 /* AppDelegate.m */,
 				6B0912BC20CF5F3E000A6736 /* ViewController.h */,
@@ -110,6 +145,8 @@
 				6B0912C420CF5F3F000A6736 /* LaunchScreen.storyboard */,
 				6B0912C720CF5F3F000A6736 /* Info.plist */,
 				6B0912C820CF5F3F000A6736 /* main.m */,
+				6B01503420CFE87D0039B6FD /* HeadView.h */,
+				6B01503520CFE87D0039B6FD /* HeadView.m */,
 			);
 			path = ZFBHome;
 			sourceTree = "<group>";
@@ -130,6 +167,22 @@
 				6B0912DF20CF5F40000A6736 /* Info.plist */,
 			);
 			path = ZFBHomeUITests;
+			sourceTree = "<group>";
+		};
+		6B0BE98B20D0A22F00640AE9 /* res */ = {
+			isa = PBXGroup;
+			children = (
+				6B0BE98D20D0A27400640AE9 /* home_bill@2x.png */,
+				6B0BE98E20D0A27400640AE9 /* home_card@2x.png */,
+				6B0BE99120D0A27400640AE9 /* home_contacts@2x.png */,
+				6B0BE99220D0A27400640AE9 /* home_pay@2x.png */,
+				6B0BE99020D0A27400640AE9 /* home_scan@2x.png */,
+				6B0BE98F20D0A27400640AE9 /* home_search.png */,
+				6B0BE99420D0A27400640AE9 /* home_xiu@2x.png */,
+				6B0BE99320D0A27400640AE9 /* pay_mini@2x.png */,
+				6B0BE98C20D0A27400640AE9 /* userinfo_loading@2x.png */,
+			);
+			path = res;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,8 +288,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B0BE99520D0A27400640AE9 /* userinfo_loading@2x.png in Resources */,
+				6B0BE99620D0A27400640AE9 /* home_bill@2x.png in Resources */,
+				6B0BE99920D0A27400640AE9 /* home_scan@2x.png in Resources */,
 				6B0912C620CF5F3F000A6736 /* LaunchScreen.storyboard in Resources */,
+				6B0BE99B20D0A27400640AE9 /* home_pay@2x.png in Resources */,
+				6B0BE99720D0A27400640AE9 /* home_card@2x.png in Resources */,
+				6B0BE99820D0A27400640AE9 /* home_search.png in Resources */,
+				6B0BE99A20D0A27400640AE9 /* home_contacts@2x.png in Resources */,
+				6B0BE99C20D0A27400640AE9 /* pay_mini@2x.png in Resources */,
 				6B0912C320CF5F3F000A6736 /* Assets.xcassets in Resources */,
+				6B0BE99D20D0A27400640AE9 /* home_xiu@2x.png in Resources */,
 				6B0912C120CF5F3E000A6736 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +326,8 @@
 			files = (
 				6B0912BE20CF5F3E000A6736 /* ViewController.m in Sources */,
 				6B0912C920CF5F3F000A6736 /* main.m in Sources */,
+				6B01503620CFE87D0039B6FD /* HeadView.m in Sources */,
+				6B01503D20CFF47D0039B6FD /* UIButton+ImgLabel.m in Sources */,
 				6B0912BB20CF5F3E000A6736 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
